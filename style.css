@@ -1,0 +1,280 @@
+@import url("https://fonts.googleapis.com/css2?family=Lumanosimo&display=swap");
+
+body {
+  background-color: aquamarine !important;
+  background: url(./imagenes/fondo.jpeg) no-repeat fixed !important;  
+  min-height: 100vh;
+}
+
+
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+  background: url(./imagenes/fondo.jpeg);
+}
+
+
+
+#logo {
+  display: flex;
+  align-items: center;
+  width: 120px;
+  height: 120px;
+  padding: 10px;
+}
+
+
+header a {
+  text-decoration: none !important;
+  font-family: "Lumanosimo", cursive;
+  font-size: 18px;
+  color: purple;
+  text-shadow: 2px 2px 5px darkslateblue;
+}
+
+
+
+header ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+
+
+header ul li {
+  margin: 10px;
+  font-family: "Lumanosimo", cursive;
+  font-size: 18px;
+  color: purple;
+  text-shadow: 2px 2px 5px darkslateblue;
+}
+
+
+
+.desplegable {
+  color: purple;
+}
+
+
+.dropdown-menu {
+  background-color: #f9f9f9;
+  width: 185px;
+}
+
+
+.presentacion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.presentacion img {
+  width: 100%;
+}
+
+
+
+.index h1 {
+  font-size: 36px;
+  color: purple;
+  text-shadow: 2px 2px 5px darkslateblue;
+  font-family: "Lumanosimo", cursive;
+}
+
+
+
+p {
+  font-size: 18px;
+  color: black;
+  font-family: "Lumanosimo", cursive;
+}
+
+
+
+
+blockquote {
+  font-family: "Lumanosimo", cursive;
+  color: purple;
+  text-shadow: 2px 2px 5px darkslateblue;
+}
+
+
+
+p .presentacion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.main {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(241, 210, 241);
+}
+
+
+
+.row img {
+  width: 100%;
+  height: auto;
+  border: 10px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+
+
+.row h2 {
+  display: flex;
+  justify-content: center;
+  font-family: "Lumanosimo", cursive;
+  font-size: 20px;
+  text-shadow: 2px 2px 5px darkslateblue;
+}
+
+
+
+.ubicacion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;  
+}
+
+.ubicacion h2 {
+  color: purple;  
+  text-shadow: 2px 2px 5px darkslateblue;
+  font-family: "Lumanosimo", cursive;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;  
+}
+
+
+
+.carousel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.carousel h2 {
+  font-family: "Lumanosimo", cursive;
+  color: purple;
+  text-shadow: 2px 2px 5px darkslateblue;
+}
+
+
+
+.carousel img {
+  width: 450px;
+  height: 450px;
+  object-fit: cover;
+}
+
+
+
+.redes {
+  min-width: 500px;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+.redes a {
+  text-decoration: none;
+  font-size: 28px;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  background-color: #314652;
+  color: #f1f1f1;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  transition: all 0.4s ease-in-out;
+}
+
+
+
+.redes a:hover {
+  transform: scale(1.2);
+}
+
+
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(221, 188, 221);
+  width: 100%;
+}
+
+
+
+/* Amigurumi*/
+
+.principal h1 {
+
+  color: purple;
+  text-shadow: 2px 2px 5px darkslateblue;
+  text-align: center;
+  font-family: "Lumanosimo", cursive;
+}
+
+
+
+.galeriaami {
+  margin: 10px 20px;
+  box-shadow: 0 4px 8px 0 lightskyblue 0 6 20 px 0 rgba(0, 0, 0, 0.5);
+  float: left;
+  width: 350px;
+}
+
+
+
+.galeriaami img {
+  width: 100%;
+  height: auto;
+}
+
+
+
+.galeriaami:hover {
+  border: 1px solid lightcoral;
+  transform: rotate(-3deg);
+}
+
+
+
+.galeriaami .pie {
+  text-align: center;
+  text-shadow: 2px 2px 5px purple;
+  padding: 10px;
+}
+
