@@ -11,10 +11,9 @@ body {
 header {
   width: 100%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   padding: 10px;
-  background: url(./imagenes/fondo.jpeg);
 }
 
 
@@ -66,6 +65,67 @@ header ul li {
   background-color: #f9f9f9;
   width: 185px;
 }
+
+
+
+.abrir-menu,
+.cerrar-menu {
+  display: none;
+}
+
+
+@media screen and (max-width: 550px) {
+  .abrir-menu,
+  .cerrar-menu {
+    display: block;
+    border: 0;
+    font-size: 2rem;
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+  .abrir-menu {
+    color: #314652;
+  }
+
+  .cerrar-menu {
+    color: #4305ee46;    
+    text-shadow: 1px 1px 2px lightsteelblue;
+  }
+
+  
+  .nav {
+    opacity: 0;
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 1rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(255, 192, 203);
+    padding: 2rem;
+    box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
+  }
+
+  .nav.visible {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .nav-list{
+    flex-direction: column;
+    align-items: end;
+  }
+
+}
+
+
+
+
+
 
 
 .presentacion {
@@ -197,7 +257,7 @@ p .presentacion {
 
 
 .redes {
-  min-width: 500px;
+  min-width: 50%;
   display: flex;
   justify-content: space-around;
 }
